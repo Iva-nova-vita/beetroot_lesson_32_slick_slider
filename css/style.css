@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    text-transform: uppercase;
+    width: 96vw;
+    }
+h1 {
+    
+    font-size: 60px;
+    margin: 0 300px 0 300px;
+  
+}
+
+.slider {
+    margin: 50px 0 0 50px;
+   
+
+}
+      
+.slider div {
+    padding: 20px;
+   
+}
+     
+.slider img {
+    width: 380px;
+    height: 340px;
+}
