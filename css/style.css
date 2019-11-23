@@ -1,7 +1,7 @@
 body {
     text-align: center;
     text-transform: uppercase;
-    width: 96vw;
+    width: 90vw;
     }
 h1 {
     
@@ -24,4 +24,39 @@ h1 {
 .slider img {
     width: 380px;
     height: 340px;
+}
+.slick-prev
+{
+    left: -35px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: url(../images/Arrow_left.png);
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: url(../images/Arrow_right.png);
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: url(../images/Arrow_right.png);
+}
+[dir='rtl'] .slick-next:before
+{
+    content: url(../images/Arrow_left.png);
 }
