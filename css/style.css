@@ -2,23 +2,19 @@ body {
     text-align: center;
     text-transform: uppercase;
     width: 90vw;
-    }
+}
+
 h1 {
-    
     font-size: 60px;
     margin: 0 300px 0 300px;
-  
 }
 
 .slider {
-    margin: 50px 0 0 50px;
-   
-
+    margin: 50px 0 0 150px;
 }
       
 .slider div {
     padding: 20px;
-   
 }
      
 .slider img {
@@ -27,7 +23,7 @@ h1 {
 }
 .slick-prev
 {
-    left: -35px;
+    left: -75px;
 }
 [dir='rtl'] .slick-prev
 {
